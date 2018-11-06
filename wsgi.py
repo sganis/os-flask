@@ -4,11 +4,11 @@ from flask import Flask
 application = Flask(__name__)
 
 @application.route("/")
-def root():
+def somename():
 	return (
 		"<br/><br/><br/><br/>"
 		"<center>"
-		"<h1>This app is working!"
+		"<h1>ospy - openshift python app"
 		"<br/>"
 		"Test service: <a href='/getkey'>Get Key</a></h1>"
 		"</center>"
@@ -21,6 +21,8 @@ def getkey():
 		'key' : 'Te98w@iim$#'
 	}
 	return json.dumps(data)
+
+
 
 if __name__ == "__main__":
 	application.run()
