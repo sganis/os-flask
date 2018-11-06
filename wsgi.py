@@ -6,8 +6,12 @@ application = Flask(__name__)
 @application.route("/")
 def root():
 	return (
-		"This app is working!<br/>"
-		"Get the servce: <a href='/getkey'>Get Key</a>"
+		"<br/><br/><br/><br/>"
+		"<center>"
+		"<h1>This app is working!"
+		"<br/>"
+		"Test service: <a href='/getkey'>Get Key</a></h1>"
+		"</center>"
 	)
 
 @application.route("/getkey")
