@@ -20,3 +20,6 @@ def getkey():
 
 if __name__ == "__main__":
 	app.run()
+
+# openshift webhook
+# https://master.aramco-6a76.openshiftworkshop.com:443/apis/build.openshift.io/v1/namespaces/os-flask/buildconfigs/os-flask/webhooks/65ab01535f80037f/github
