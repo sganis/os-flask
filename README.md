@@ -1,1 +1,2 @@
-# os-flask
+# ospy
+Openshift python app
